@@ -1,0 +1,90 @@
+name: Bug report
+description: Something in Offline Image Organizer does not work the way it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This issue will be public and permanently visible.**
+
+        Please do not attach your `.lic` licence file, and do not include your order reference,
+        email address or postal address. Check screenshots for faces, names and file paths
+        before you upload them. Anything about a purchase, licence or refund goes to
+        **support@itfanatic.com** instead.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you expect, and what did the application do instead?
+      placeholder: |
+        I pressed "Write All New Data" and expected the names to be written into the files.
+        Instead the progress bar stopped at 40% and nothing was written.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The smallest sequence that shows the problem. If it only happens with certain photos, say what is unusual about them (format, size, camera).
+      placeholder: |
+        1. Open a project with about 500 photos
+        2. Go to the People page
+        3. Name one group
+        4. Press "Classify unassigned"
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Application version
+      description: From the menu — About. For example 1.0.0.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows 11 (64-bit)
+        - Windows 10 (64-bit)
+        - macOS — Apple Silicon
+        - macOS — Intel
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: Operating system version
+      description: For example "Windows 10 22H2" or "macOS 26.1".
+    validations:
+      required: false
+
+  - type: textarea
+    id: library
+    attributes:
+      label: About the photo library
+      description: Roughly how many photos, and what formats (JPEG, HEIC, camera RAW)? Are they on an internal disk, an external drive, or a network share?
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots help a lot — with the warning at the top in mind. You can paste images straight into this box.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before you submit
+      options:
+        - label: I have not included my licence file, order reference, or email address, and I have checked any screenshots for personal information.
+          required: true

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Purchase, licence or refund question
+    url: mailto:support@itfanatic.com
+    about: Anything involving your order, a lost licence file, or a refund. These carry personal data and must not be filed as a public issue.
+  - name: Data protection request
+    url: mailto:support@itfanatic.com
+    about: A copy of your data, a correction, or erasure. Email us — never file this publicly.
+  - name: User guide
+    url: https://itfanatic.com/image-organizer/howto
+    about: Step-by-step instructions with screenshots. Worth a look before filing a bug.
