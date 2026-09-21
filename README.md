@@ -1,6 +1,6 @@
-# Offline Image Organizer — support
+# PrivacyFirst Photo Organizer — support
 
-Bug reports and feature requests for **[Offline Image Organizer](https://itfanatic.com/image-organizer)**.
+Bug reports and feature requests for **[PrivacyFirst Photo Organizer](https://itfanatic.com/image-organizer)**.
 
 This repository holds **no source code**. It exists so you can file something, watch it, and see
 when it is fixed — which a support email cannot do.
@@ -9,8 +9,8 @@ when it is fixed — which a support email cannot do.
 
 | I want to… | Go here |
 |---|---|
-| Report a bug | [New issue → Bug report](https://github.com/bl305/image_organizer_support/issues/new?template=bug_report.yml) |
-| Suggest a feature | [New issue → Feature request](https://github.com/bl305/image_organizer_support/issues/new?template=feature_request.yml) |
+| Report a bug | [New issue → Bug report](https://github.com/bl305/privacyfirst_photo_organizer_support/issues/new?template=bug_report.yml) |
+| Suggest a feature | [New issue → Feature request](https://github.com/bl305/privacyfirst_photo_organizer_support/issues/new?template=feature_request.yml) |
 | Read the user guide | [itfanatic.com/image-organizer/howto](https://itfanatic.com/image-organizer/howto) |
 | Ask about a purchase, licence, or refund | Email **support@itfanatic.com** — not an issue here |
 

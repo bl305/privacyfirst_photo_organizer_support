@@ -1,5 +1,5 @@
 name: Bug report
-description: Something in Offline Image Organizer does not work the way it should.
+description: Something in PrivacyFirst Photo Organizer does not work the way it should.
 labels: ["bug"]
 body:
   - type: markdown
